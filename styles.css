@@ -111,13 +111,13 @@ body {
 
 .nav-button-transparent {
     font-family: 'Roboto';
-    font-size: 1.4375em;
+    font-size: 1.4375rem;
     background-color: transparent;
     border: 2px solid var(--color-main-orange);
     border-radius: 5px;
-    padding: 2px 1.4375em 0;
+    padding: 2px 1.4375rem 0;
     color: var(--color-light);
-    height: 3.125em;
+    height: 3.125rem;
     cursor: pointer
 }
 
@@ -167,7 +167,7 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.4375em;
+    font-size: 1.4375rem;
     line-height: 1.18;
     letter-spacing: 0em;
     color: var(--color-light);
@@ -176,8 +176,8 @@ body {
 }
 
 .hero-button {
-    height: 3.75em;
-    width: 10em;
+    height: 3.75rem;
+    width: 10rem;
     border: none;
     border-radius: 5px;
 }
@@ -388,6 +388,7 @@ body {
     right: -10%;
     height: 4em;
     background: var(--color-main-bg);
+    opacity: .5;
 }
 
 .icon {
