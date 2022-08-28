@@ -55,7 +55,7 @@ body {
 }
 
 .logo-img {
-    height: 3.75em;;
+    height: 3.75em;
     width: auto;
 }
 
@@ -111,13 +111,13 @@ body {
 
 .nav-button-transparent {
     font-family: 'Roboto';
-    font-size: 1.4375rem;
+    font-size: 1.4375em;
     background-color: transparent;
     border: 2px solid var(--color-main-orange);
     border-radius: 5px;
-    padding: 2px 1.4375rem 0;
+    padding: 2px 1.4375em 2px;
     color: var(--color-light);
-    height: 3.125rem;
+    height: 3.125em;
     cursor: pointer
 }
 
@@ -167,7 +167,7 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.4375rem;
+    font-size: 1.4375em;
     line-height: 1.18;
     letter-spacing: 0em;
     color: var(--color-light);
@@ -176,8 +176,8 @@ body {
 }
 
 .hero-button {
-    height: 3.75rem;
-    width: 10rem;
+    height: 3.75em;
+    width: 10em;
     border: none;
     border-radius: 5px;
 }
@@ -211,7 +211,7 @@ body {
     /* font-grey */
     color: var(--color-medium);
     margin-top: 1.25em;
-    margin-bottom: 7.5rem;
+    margin-bottom: 7.5em;
 }
 
 .main-carousel {
@@ -267,7 +267,7 @@ body {
 }
 
 .card-title {
-    margin-bottom: 0.625rem;
+    margin-bottom: 0.625em;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -279,7 +279,7 @@ body {
 }
 
 .card-text {
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.875em;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -292,7 +292,7 @@ body {
 
 
 .main-label {
-    margin-bottom: 3.75rem;
+    margin-bottom: 3.75em;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -426,7 +426,7 @@ body {
 
 @media screen and (max-width: 768px) {
     :root {
-        --base-font-size: 9px;
+        --base-font-size: 10px;
     }
 
     .footer-band {
@@ -442,18 +442,14 @@ body {
 
 @media screen and (max-width: 575px) {
     :root {
-        --base-font-size: 7px;
+        --base-font-size: 8px;
     }
 }
 
-@media screen and (max-width: 480px) {
-    :root {
-        --base-font-size: 6px;
-    }
-}
+
 
 @media screen and (max-width: 420px) {
     :root {
-        --base-font-size: 5px;
+        --base-font-size: 7px;
     }
 }
